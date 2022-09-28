@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #0A438B;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    gap:50px;
+    justify-content: space-between;
+    
+}
+.secdiv{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    color: white;
+    gap:20px;
+    
+}
