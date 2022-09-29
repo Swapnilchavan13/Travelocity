@@ -1,0 +1,39 @@
+footer{
+    width: 80%;
+    margin: auto;
+  }
+  #links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer>div a{
+  text-decoration: none;
+  color: #0a438b;
+  }
+  footer>div li{
+  text-decoration: none;
+  list-style-type:none;
+  margin: 20px 0px;
+  }
+  footer p{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #support{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 90px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    color: #0a438b;
+  }
+  #support:hover{
+    background-color: #0a438b;
+    color: white;
+  }
+  
