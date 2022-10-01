@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/x-icon" href="https://www.travelocity.com/favicon.ico" sizes="16x16 32x32" rel="shortcut icon">
+    <title>
+        Flight details | Travelocity
+    </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="checkout.css">
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="leftNav">
+          <a href="index.html"><img
+            src="https://www.travelocity.com/_dms/header/logo.svg?locale=en_US&amp;siteid=80001&amp;2"
+            alt="travelocity"
+          /></a>
+          
+          <div id="dropDown">
+            <button onclick="dropMenu()"><p>More Travel</p></button>
+            <div id="dropMenu">
+              <div class="anchor"><a href="">Packages</a></div>
+              <div class="anchor"><a href="">Stays</a></div>
+              <div class="anchor"><a href="">Cars</a></div>
+              <div class="anchor"><a href="">Flights</a></div>
+              <div class="anchor"><a href="">Cruises</a></div>
+              <div class="anchor"><a href="">Things to do</a></div>
+              <div class="anchor"><a href="">Tips for me</a></div>
+              <div class="anchor"><a href="">Discover</a></div>
+              <div class="anchor"><a href="">Travel Deals</a></div>
+            </div>
+          </div>
+          <div onclick="dropMenu()">
+            <span class="material-icons" style="color: white; margin-top: 20px"
+              >expand_more</span
+            >
+          </div>
+        </div>
+        <div id="rightNav">
+          <a href="#">Espanol</a>
+          <a href="#">List your property</a>
+          <a href="support.html">Support</a>
+          <a href="#">Trips</a>
+          <a href="signin.html" id="signinText">Sign in</a>
+        </div>
+      </nav>
+    </header>
+
+    
+    <section id="detailssetion">
+        
+        <div class="leftdiv">  
+             <!-- RigtDiv -->
+            <div class="txtdiv">
+                    <span>MAA</span> 
+                    <span class="material-icons">arrow_forward</span>
+                    <span>DEL</span>
+                    <pre>   </pre>  
+                    <b><span>Reviw your trip</span></b>
+            </div>
+            <!-- check Covid -->
+            <div class="checkCovid">
+              
+                    <div class="crossIcon">
+                        <h1 class="material-icons"> report_problem</h1>
+                    </div>
+                    <div class="textcheck">
+                        <p>Check COVID-19 restrictions. </p>
+                        <a href="#"><span>find out more</span></a>
+                        <a href="#"><span>Dismiss</p></span></a>
+                    </div>
+
+            </div>
+              <!-- stay flaxible -->       
+              <section class="stayFlaxible">
+                    <div class="stayflaxibleclass">
+                        <div class="stayHomeimage">
+                            <img src="https://images.trvl-media.com/media/content/expus/graphics/flights/no_change_fee.svg">
+                        </div>
+                        <div class="stayHometext">
+                        <h3>Stay flexible with no change fess</h3>
+                        <p>We recommend boking a flight with no change fess in case your plans change.</p>
+                        <a href="#"><span>Chage flight</span></a>
+                        </div>
+                    </div>
+              </section> 
+               
+              <section class="plansection">
+                <!-- Sorce To Des -->
+                  <div class="sorceTodes">
+                    <h1>Chennnai To Delhi</h1>
+                    <div class="flitimg">
+                        <div class="fimage">
+                            <span class="material-icons">flight_takeoff</span><pre>    </pre>
+                        </div>
+                            <div class="fclass">
+                                <p></p>
+                            </div>
+                     </div>
+                     <!-- Time and -->
+                     <div class="flitTime">
+                        <h4><b></b></h4>
+                        <p></p>
+                        <a href="#">Show details</a>
+                        <br><br><br><br><br><br><br><br><br><br><br>
+                        <hr>
+                    </div>
+                      <!-- Estimated bag fess -->
+                     <br><br><br>
+                    <section class="Estimatedclass">
+                        <h3>Estimated bag fess</h3>
+                        <div class="Estimatedcost">
+                                <div class="leftest">
+                                    <p>Carry-On:</p>
+                                    <p>1st Checked bag:</p>
+                                    <p>2nd Checked bag:</p>
+                                </div>
+                                <div class="rightest">
+                                    <p>Included</p>
+                                    <p>Included</p>
+                                    <p>₹1000 to ₹4000</p>
+                                </div>
+                        </div>
+                       
+                        <div class="estimatetext">
+                            <span>
+                                Baggage fees reflect the airline's standard fees based on the selected fare class. 
+                                Fees may vary based on size and weight restrictions as well as loyalty programs
+                                 and other promotions. For more information, check with 
+                    
+                                    <span class="material-icons">
+                                        logout
+                                        </span>
+                             
+                            </span>
+                            <div class="estimatetext2">
+                                <span>
+                                   <span>you can purchase checked bags from Go First</span><span>icon</span><span>
+                                       or through the link in your confirmation or check-in emails.
+                                   </span>
+                                  
+                            
+                        </div>
+                     
+                    </section>
+                    <div class="lastDiv">
+                      <hr>
+                      <a href="#"><span>Chage flight</span></a>
+                      <center><span>Tell Us how  we can improve our site </span></center>
+                    </div>
+                   
+                  </div>
+
+              </section>
+              <hr>
+        </div>
+        <!-- RigtDiv -->
+        <div class="rightdiv">
+            <div class="checkout">
+              <h1>Price Summay</h1>
+              <label for="">Select no. of passengers</label>
+              <select name="" id="passengerNum" onchange="numOfPass()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            
+
+            </div>
+            <hr>
+            <div class="checkout2">
+            <div class="button"> 
+              <p></p>
+              <table class="table2">
+                <tr>
+                  <td><h2>Trip Total</h2></td>
+                  <td></td>
+                  <td><h2 id="finalPrice">$ 82.24</h2></td>
+                </tr>
+              </table>
+              <p id="text">Rates are quoted in Indian rupees</p>
+           <a href="paymentpage.html"> <button id="checkoutBtn">check out</button></a>
+      
+            </div>
+            </div>
+        </div>
+     
+      </section>
+      <footer>
+        <div id="links">
+          <div>
+            <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="expedia group">
+          </div>
+          <div>
+            <ul>
+              <li><b>Company</b></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Newsroom</a></li>             
+            </ul>  
+          </div>
+  
+          <div>
+            <ul>
+              <li><b>Explore</b></li>
+              <li><a href="#">Domestic Flights</a></li>
+              <li><a href="#">Travelocity Reviews</a></li>
+              <li><a href="#">Travelocity Coupons</a></li>
+              <li><a href="#">Travel Blog</a></li>            
+            </ul> 
+          </div>
+          <div>
+            <ul>
+              <li><b>Policies</b></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Accessibility</a></li>     
+            </ul> 
+          </div>
+          <div>
+            <ul>
+              <li><b>Help</b></li>
+              <li><a href="support.html">Support</a></li>
+              <li><a href="#">Cancel your flight</a></li>
+              <li><a href="#">Use a Travelocity coupon</a></li>      
+            </ul> 
+          </div>
+        </div>
+        <hr>
+        <div>
+          <p>© 2021 Travelscape LLC, an Expedia Group Company. All rights reserved.
+            Travelocity, the Stars Design, and The Roaming Gnome Design are trademarks or registered trademarks of Travelscape LLC. CST# 2056372-50.</p>
+        </div>
+      </footer>
+  </body>
+</html>
+<script src="checkout.js"> </script>
